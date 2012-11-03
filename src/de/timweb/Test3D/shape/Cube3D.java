@@ -8,6 +8,7 @@ import de.timweb.Test3D.graphics.Renderable;
 import de.timweb.Test3D.math.Vector3d;
 
 public class Cube3D extends Shape3D implements Renderable{
+	private static final long serialVersionUID = 8643464514238648769L;
 	private Vector3d front0;
 	private Vector3d front1;
 	private Vector3d front2;
@@ -20,9 +21,13 @@ public class Cube3D extends Shape3D implements Renderable{
 
 	/**
 	 * <pre>
-	 * Points in Cube
-	 *  3	2
-	 * 	0	1
+	 * Points in Cube:
+	 *    _______
+	 *   /      /|
+	 *  3------2 |
+	 *  |      | |
+	 *  |      |/
+	 *  0------1
 	 * </pre>
 	 */
 
