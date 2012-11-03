@@ -54,4 +54,5 @@ public class Controls {
 		this.dx += dx;
 		this.dy += dy;
 	}
+
 }
