@@ -18,7 +18,6 @@ public class Controls {
 
 	public synchronized void update(int delta) {
 		handleKeys(delta);
-
 		handleMouse(delta);
 
 		dx = 0;
