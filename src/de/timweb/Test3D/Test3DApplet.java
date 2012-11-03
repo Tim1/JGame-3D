@@ -6,6 +6,8 @@ import de.timweb.Test3D.game.Test3DCanvas;
 
 
 public class Test3DApplet extends Applet{
+	private static final long serialVersionUID = 62473324232776428L;
+
 	@Override
 	public void init() {
 		super.init();
