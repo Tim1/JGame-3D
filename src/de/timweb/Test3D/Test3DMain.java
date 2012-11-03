@@ -26,7 +26,7 @@ public class Test3DMain {
 		evocanvas.setFocusable(true);
 		evocanvas.requestFocus();
 
-//		hideCurser();
+//		hideCurser(); 
 //		frame.setCursor(Cursor.getPredefinedCursor(Cursor.CROSSHAIR_CURSOR));
 		
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
