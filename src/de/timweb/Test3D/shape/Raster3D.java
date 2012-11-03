@@ -12,7 +12,7 @@ import de.timweb.Test3D.math.Vector3d;
  * @author Tim
  */
 public class Raster3D extends Shape3D implements Renderable {
-	
+	private static final long serialVersionUID = 789397089002518860L;
 	private ArrayList<Path3D> line = new ArrayList<Path3D>();
 	private ArrayList<Path3D> cross = new ArrayList<Path3D>();
 

@@ -7,6 +7,7 @@ import de.timweb.Test3D.graphics.Renderable;
 import de.timweb.Test3D.math.Vector3d;
 
 public class Path3D extends Shape3D implements Renderable {
+	private static final long serialVersionUID = -2585468296444417443L;
 	private Vector3d[] points;
 
 	public Path3D(Vector3d... points) {
